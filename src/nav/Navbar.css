@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(41, 41, 41);
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLinks a:not(:last-child) {
+  margin-right: 35px;
+}
+
+.navLogo, .navToutou {
+  width:43px;
+  height: 48px;
+  border-radius: 30px;
+}

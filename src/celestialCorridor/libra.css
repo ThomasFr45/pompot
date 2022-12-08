@@ -1,0 +1,22 @@
+.libraContainer {
+  font-size:18px;
+}
+
+.libraContent {
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.libraBlessingsImg {
+  margin-top: 20px;;
+}
+
+.libraMecha li {
+  margin-top: 40px;
+}
+
+.libraMecha li:last-child {
+  margin-bottom: 80px;
+}
