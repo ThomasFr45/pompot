@@ -37,15 +37,22 @@ const Sagittarius = () => {
             <img src={sagiInfo} alt="Archer Spirit" />
           </li>
           <li>
-            2. Sagittarius invoquera des tourelles de manière aléatoire et ce pendant 8 secondes, tant qu'elles sont actives, Sagittarius ne prendra pas de dégats.
+            2. Sagittarius invoquera des tourelles de manière aléatoire et ce
+            pendant 8 secondes, tant qu'elles sont actives, Sagittarius ne
+            prendra pas de dégats.
           </li>
           <li>
             <img src={sagiInfo2} alt="Magic Arrows" />
           </li>
           <li>
-            Notez que Sagittarius est immunisée aux dégats persée. <br/> Il est conseillé de faire prendre la Flame protection à l'Executionner, et la Frost protection au Healer. Les autres classes peuvent prendre ce qu'elles veulent.
+            Notez que Sagittarius est immunisée aux dégats persée. <br /> Il est
+            conseillé de faire prendre la Flame protection à l'Executionner, et
+            la Frost protection au Healer. Les autres classes peuvent prendre ce
+            qu'elles veulent.
           </li>
-          <li><img src={sagiInfo3} alt="Elemental Protections" /></li>
+          <li>
+            <img src={sagiInfo3} alt="Elemental Protections" />
+          </li>
         </ul>
       </div>
     </div>
