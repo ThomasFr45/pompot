@@ -7,7 +7,7 @@ import geminiStatues1 from "../img/cc/geminiStatues1.png";
 import geminiStatues2 from "../img/cc/geminiStatues2.png";
 import geminiStatues3 from "../img/cc/geminiStatues3.png";
 import geminiStatues4 from "../img/cc/geminiStatues4.png";
-import geminiInfo3 from '../img/cc/geminiInfo3.png';
+import geminiInfo3 from "../img/cc/geminiInfo3.png";
 
 const Gemini = () => {
   let teamComp = {
@@ -49,17 +49,39 @@ const Gemini = () => {
             statue 3 <br /> La statue 3 contrôle la statue 1 <br /> La statue 4
             contrôle la statue 2
           </li>
-          <li><img src={geminiStatues1} alt="Statues" /></li>
-          <li><img src={geminiStatues2} alt="Statues" /></li>
-          <li><img src={geminiStatues3} alt="Statues" /></li>
-          <li><img src={geminiStatues4} alt="Statues" /></li>
-          <li>4. "Dark Twin" vous appliquera un débuff : "Enter Darkness". Ce débuff restera 2s, après quoi une flaque violette apparaîtra à vos pieds. Elle fera de gros dégâts à vous et vos alliés. Essayez de vous éloigner du groupe quand vous avez ce débuff !</li>
-          <li><img src={geminiInfo3} alt="Enter Darkness" /></li>
-          <li><h3>Notez que :</h3></li>
-          <li>Gemini est immunisé aux dégâts de type DARK.</li>
-          <li>Il y aura un message en zone à chaque fois qu'une statue est activée, le message vous fera savoir quel élément est activé. Il est recommandé que tout les membres du groupes, sauf le healer, courrent vers une statue pour les activer au plus vite.</li>
-          <li>"Light Twin" peut vous tirer vers lui et vous stun.</li>
-          <li>Les Twins doivent être tués à 30 secondes maximum d'intervale.</li>
+          <li>
+            <img src={geminiStatues1} alt="Statues" />
+          </li>
+          <li>
+            <img src={geminiStatues2} alt="Statues" />
+          </li>
+          <li>
+            <img src={geminiStatues3} alt="Statues" />
+          </li>
+          <li>
+            <img src={geminiStatues4} alt="Statues" />
+          </li>
+          <li>
+            4. "Dark Twin" vous appliquera un débuff : "Enter Darkness". Ce
+            débuff restera 2s, après quoi une flaque violette apparaîtra à vos
+            pieds. Elle fera de gros dégâts à vous et vos alliés. Essayez de
+            vous éloigner du groupe quand vous avez ce débuff !
+          </li>
+          <li>
+            <img src={geminiInfo3} alt="Enter Darkness" />
+          </li>
+          <li>
+            <h3>Notez que :</h3>
+          </li>
+          <li>
+            Gemini est immunisé aux dégâts de type DARK. <br /> Il y aura un
+            message en zone à chaque fois qu'une statue est activée, le message
+            vous fera savoir quel élément est activé. Il est recommandé que tout
+            les membres du groupes, sauf le healer, courrent vers une statue
+            pour les activer au plus vite. <br /> "Light Twin" peut vous tirer
+            vers lui et vous stun. <br /> Les Twins doivent être tués à 30
+            secondes maximum d'intervale. <br/> Il est conseillé d'avoir entre 70 et 85 de résistances au Holy et Dark.
+          </li>
         </ul>
       </div>
     </div>

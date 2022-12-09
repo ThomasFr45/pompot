@@ -54,11 +54,11 @@ const Leo = () => {
           <li>
             <h3>Notez que :</h3>
           </li>
-          <li>Leo est immunisé aux dégâts SLASH.</li>
           <li>
-            Les clones sont immunisés à tout types de dégats. Vous pouvez les
-            tuer avec un assassin ou un Time Totem, mais ils vont respawn
-            directement.
+            Leo est immunisé aux dégâts SLASH. <br /> Les clones sont immunisés
+            à tout types de dégats. Vous pouvez les tuer avec un assassin ou un
+            Time Totem, mais ils vont respawn directement.
+            <br/> Il est conseillé d'avoir un maximum de résistance au slash.
           </li>
         </ul>
       </div>
