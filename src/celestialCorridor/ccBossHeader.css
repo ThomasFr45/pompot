@@ -1,12 +1,9 @@
-.ccBossHeader {
-  font-size:18px;
-}
-
 .ccBossProfil {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -200px
+  margin-left: -200px;
+  font-weight: bold;
 }
 
 .ccBossProfilPic {
@@ -30,4 +27,43 @@
 
 .ccBossComp h3 {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1150px) {
+  .ccBossProfilPic {
+    width: 40%;
+  }
+}
+
+@media (max-width: 850px) {
+  .ccBossProfilPic {
+    width: 400px;
+  }
+
+  .ccBossComp {
+    margin-top: 45px;
+  }
+
+  .ccBossProfil {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .ccBossProfilInfo {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .ccBossProfilInfo p:not(:first-child) {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .ccBossProfilPic {
+    max-width: 100%;
+  }
 }

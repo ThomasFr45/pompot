@@ -16,8 +16,19 @@ code {
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style: none;
+}
+
+body {
+  font-size : 18px;
+}
+
+@media (max-width:1200px) {
+  body {
+    font-size: 15px;
+  }
 }
