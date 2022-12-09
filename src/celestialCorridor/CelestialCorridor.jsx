@@ -1,5 +1,5 @@
 import "./celestialCorridor.css";
-import ccPic from "../img/celestialCorridor.png";
+import ccPic from "../img/cc/celestialCorridor.png";
 import { Link } from "react-router-dom";
 
 const CelestialCorridor = () => {

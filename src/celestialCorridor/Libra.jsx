@@ -4,7 +4,7 @@ import './ccBoss.css';
 import blessingsImg from '../img/cc/blessings.png';
 
 const Libra = () => {
-  let teamComp= {healer:"Adjudicator", debuffer:"Berserker", dps1:'Blade Master', dps2:'Executionner', dps3:'Assassin'}
+  let teamComp= {healer:"Adjudicator / Totem Master", debuffer:"Berserker", dps1:'Blade Master', dps2:'Executionner', dps3:'Assassin'}
   return (
     <div className="ccBossContainer">
       <CcBossHeader name='Libra' solo={false} dmg='Holy, Dark' comp={teamComp} img={bossImg}/>
