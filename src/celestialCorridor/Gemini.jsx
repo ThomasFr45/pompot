@@ -27,7 +27,7 @@ const Gemini = () => {
         img={bossImg}
       />
       <div className="ccBossConcent">
-        <h3>Méchanique du boss:</h3>
+      <h3>{localStorage.getItem('language') === 'EN' ? "Boss mechanics :" : 'Méchanique du boss:'}</h3>
         <ul className="ccBossMecha">
           <li>{`1. Holy Twin et Dark Twin doivent être séparés (En utilisant la poussée du Berserker par exemple), sinon ils vous retireront 5% de vos MP par secondes.`}</li>
           <li>2. Le donjon se déroule en plusieurs "étapes" :</li>

@@ -26,7 +26,7 @@ const Aries = () => {
         img={bossImg}
       />
       <div className="ccBossConcent">
-        <h3>Méchanique du boss:</h3>
+      <h3>{localStorage.getItem('language') === 'EN' ? "Boss mechanics :" : 'Méchanique du boss:'}</h3>
         <ul className="ccBossMecha">
           <li>
             1. Un membre du groupe devra fait le "NPC". Ce joueur devra

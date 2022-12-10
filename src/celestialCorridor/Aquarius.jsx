@@ -13,7 +13,7 @@ const Aquarius = () => {
     <div className="ccBossContainer">
       <CcBossHeader name='Libra' solo={false} dmg='N/A' comp={teamComp} img={bossImg}/>
       <div className="ccBossConcent">
-        <h3>Méchanique du boss:</h3>
+        <h3>{localStorage.getItem('language') === 'EN' ? "Boss mechanics :" : 'Méchanique du boss:'}</h3>
         <ul className="ccBossMecha">
           <li>1. Aquarius vous repoussera si vous vous approchez trop.</li>
           <li><img src={aquariusInfo1} alt="Too Close" /></li>

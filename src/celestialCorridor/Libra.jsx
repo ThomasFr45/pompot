@@ -21,7 +21,7 @@ const Libra = () => {
         img={bossImg}
       />
       <div className="ccBossConcent">
-        <h3>Méchanique du boss:</h3>
+      <h3>{localStorage.getItem('language') === 'EN' ? "Boss mechanics :" : 'Méchanique du boss:'}</h3>
         <ul className="ccBossMecha">
           <li>
             {
