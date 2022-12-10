@@ -8,12 +8,16 @@ import Aquarius from './celestialCorridor/Aquarius';
 import Aries from './celestialCorridor/Aries';
 import Leo from './celestialCorridor/Leo';
 import Gemini from './celestialCorridor/Gemini';
+import LanguageContext from './context/Language';
+import { useState } from 'react';
 
 const App = () => {
+  const [language, setLanguage] = useState(localStorage.getItem('language'));
   return (
     <div>
+      <LanguageContext.Provider value={{language : language}}>
       <HashRouter>
-        <Navbar/>
+        <Navbar setLanguage={setLanguage}/>
         <Routes>
           <Route path="celestial-corridor" element={<CelestialCorridor/>}/>
           <Route path="celestial-corridor/libra" element={<Libra/>}/>
@@ -24,6 +28,7 @@ const App = () => {
           <Route path="celestial-corridor/gemini" element={<Gemini/>}/>
         </Routes>
       </HashRouter>
+      </LanguageContext.Provider>
     </div>
   );
 }

@@ -2,10 +2,8 @@ import "./Navbar.css";
 import logo from "../img/dumas.png";
 //import slurp from "../img/slurp.jpg";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
-const Navbar = () => {
-  const [language, setLanguage] = useState(localStorage.getItem("language"));
+const Navbar = ({setLanguage}) => {
 
   const handleLanguage = (e) => {
     if (e.target.value !== localStorage.getItem("language")) {
@@ -37,7 +35,7 @@ const Navbar = () => {
       <div>
         <span>
           <select onChange={(e) => handleLanguage(e)} className="language-drop">
-            <option value="none">{language}</option>
+            <option value="none">{localStorage.getItem("language") ? localStorage.getItem("language") : 'FR'}</option>
             <option value="FR">FR</option>
             <option value="EN">EN</option>
           </select>
