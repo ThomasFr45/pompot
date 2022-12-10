@@ -35,7 +35,7 @@ const CelestialCorridor = () => {
       </div>
       <div className="ccContent">
         <div className="ccSchedule">
-          <p className="ccScheduleTitle">Planning des boss</p>
+          <p className="ccScheduleTitle"> {localStorage.getItem("language") === "EN" ? "Boss Schedule" : "Planning des boss"}</p>
           <table>
             <tr>
               <td>
