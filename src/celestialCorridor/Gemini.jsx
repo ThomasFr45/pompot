@@ -1,4 +1,4 @@
-import CcBossHeader from "./CcBossHeader";
+import CcBossHeader from "../bossHeader";
 import bossImg from "../img/cc/geminiBoss.png";
 import "./ccBoss.css";
 import geminiInfo from "../img/cc/geminiInfo.png";

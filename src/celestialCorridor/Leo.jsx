@@ -1,4 +1,4 @@
-import CcBossHeader from "./CcBossHeader";
+import CcBossHeader from "../bossHeader";
 import bossImg from "../img/cc/leoBoss.png";
 import "./ccBoss.css";
 import leoInfo1 from "../img/cc/leoInfo1.png";

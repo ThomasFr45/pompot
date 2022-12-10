@@ -1,4 +1,4 @@
-import CcBossHeader from "./CcBossHeader";
+import CcBossHeader from "../bossHeader";
 import bossImg from "../img/cc/ariesBoss.png";
 import "./ccBoss.css";
 import ariesInfo1 from "../img/cc/ariesInfo1.png";
