@@ -73,11 +73,7 @@ const Libra = () => {
               If you die while fighting Libra, you have to speak again to Luna
               and retake your blessing. <br /> If possible, try not to stack on
               your party members, Libra's skills are linear AOE, directed to all
-              players. <br /> Around 40% HP, Libra will summon Dark and Holy
-              soldiers, that will attack in a linear path. They will decrease
-              your holy and Dark resistances by 15. They can't be killed. <br />{" "}
-              It is recommended to have around 70 to 80 holy and dark
-              resistances.
+              players.
             </li>
           ) : (
             <li>
@@ -90,7 +86,11 @@ const Libra = () => {
               }
             </li>
           )}
-          <li>
+          {localStorage.getItem('language') === 'EN' ? <li>Around 40% HP, Libra will summon Dark and Holy
+              soldiers, that will attack in a linear path. They will decrease
+              your holy and Dark resistances by 15. They can't be killed. <br />{" "}
+              It is recommended to have around 70 to 80 holy and dark
+              resistances.</li> : <li>
             {
               "Vers 40% hp Libra invoquera des soldats qui attaqueront en ligne droite. Il réduiront vos résistances au Dark et Holy de 15. Il n'est pas possible de les tuer."
             }
@@ -98,7 +98,7 @@ const Libra = () => {
             {
               "Il est conseillé d'avoir au minimum 70-80 de résistances Holy et Dark."
             }
-          </li>
+          </li>}
         </ul>
       </div>
     </div>
