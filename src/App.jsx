@@ -9,7 +9,7 @@ import Aries from './celestialCorridor/Aries';
 import Leo from './celestialCorridor/Leo';
 import Gemini from './celestialCorridor/Gemini';
 
-function App() {
+const App = () => {
   return (
     <div>
       <HashRouter>

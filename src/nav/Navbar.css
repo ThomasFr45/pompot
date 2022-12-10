@@ -15,11 +15,46 @@
 }
 
 .navLinks a:not(:last-child) {
-  margin-right: 35px;
+  margin-right: 80px;
 }
 
 .navLogo, .navToutou {
   width:43px;
   height: 48px;
   border-radius: 30px;
+}
+
+.language-drop {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border: 0px;
+  border-radius: 1px;
+  font-weight: bold;
+  padding-right:10px;
+}
+
+.navCC {
+  display: none;
+}
+
+.navHoO {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .navLinks a:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navBaseLink {
+    display: none;
+  }
+  .navCC {
+    display: block;
+  }
+  .navHoO {
+    display: block;
+  }
 }
