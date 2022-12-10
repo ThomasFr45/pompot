@@ -1,17 +1,18 @@
 import "./celestialCorridor.css";
+import '../dungeonHeader.css';
 import ccPic from "../img/cc/celestialCorridor.png";
 import { Link } from "react-router-dom";
 
 const CelestialCorridor = () => {
   return (
     <div className="ccDivContainer">
-      <div className="ccDiv">
-        <img src={ccPic} alt="ccPic1" className="ccPic" />
+      <div className="dungeonDiv">
+        <img src={ccPic} alt="ccPic1" className="dungeonPic" />
         {localStorage.getItem("language") === "EN" ? (
           <p>
             Players can enter Celestial Corridor once they get to Lvl 117,
             however it is highly recommended that you reach at LEAST lvl 120,
-            and get some decent gears before attempting it. The entrance the
+            and get some decent gears before attempting it. The entrance of
             Celestial Corridor is in Aven X: 430, Y: 369. <br /> Celestial
             Corridor contains 6 dungeons, each dungeons having it's own boss,
             and mechanic. They are meant to be challenged by a party of five
