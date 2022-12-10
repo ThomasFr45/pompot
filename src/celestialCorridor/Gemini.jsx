@@ -71,7 +71,7 @@ const Gemini = () => {
             <img src={geminiInfo3} alt="Enter Darkness" />
           </li>
           <li>
-            <h3>Notez que :</h3>
+          <h3>{localStorage.getItem('language') === 'EN' ? "Notes :" : "Notez que :"}</h3>
           </li>
           <li>
             Gemini est immunisé aux dégâts de type DARK. <br /> Il y aura un

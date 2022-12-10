@@ -52,7 +52,7 @@ const Leo = () => {
             <img src={leoInfo2} alt="" />
           </li>
           <li>
-            <h3>Notez que :</h3>
+          <h3>{localStorage.getItem('language') === 'EN' ? "Notes :" : "Notez que :"}</h3>
           </li>
           <li>
             Leo est immunisé aux dégâts SLASH. <br /> Les clones sont immunisés
