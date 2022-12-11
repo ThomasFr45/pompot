@@ -1,4 +1,4 @@
-import "./ccBossHeader.css";
+import "./bossHeader.css";
 
 const CcBossHeader = (props) => {
   return (

@@ -35,9 +35,9 @@ const HavenOfOblivion = () => {
               : "Cliquez pour voir le détail."}
           </p>
           <div className="ccBossImgs">
-            <Link to="libra">
+            <Link to="alice">
               <div className="libra">
-                <p>Libra</p>
+                <p>Alice</p>
               </div>
             </Link>
           </div>

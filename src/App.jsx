@@ -1,24 +1,43 @@
-import './App.css';
+import "./App.css";
 import Navbar from "./nav/Navbar";
-import { HashRouter } from "react-router-dom";
-import LanguageContext from './context/Language';
-import { useState } from 'react';
-import HooRoutes from './nav/HooRoutes';
-import CcRoutes from "./nav/CcRoutes";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import LanguageContext from "./context/Language";
+import { useState } from "react";
+import HavenOfOblivion from "./havenOfOblivion/HavenOfOblivion";
+import Alice from "./havenOfOblivion/Alice";
+import Aquarius from "./celestialCorridor/Aquarius";
+import Aries from "./celestialCorridor/Aries";
+import CelestialCorridor from "./celestialCorridor/CelestialCorridor";
+import Gemini from "./celestialCorridor/Gemini";
+import Leo from "./celestialCorridor/Leo";
+import Libra from "./celestialCorridor/Libra";
+import Sagittarius from "./celestialCorridor/Sagittarius";
 
 const App = () => {
-  const [language, setLanguage] = useState(localStorage.getItem('language'));
+  const [language, setLanguage] = useState(localStorage.getItem("language"));
   return (
     <div>
-      <LanguageContext.Provider value={{language : language}}>
-      <HashRouter>
-        <Navbar setLanguage={setLanguage}/>
-        <HooRoutes/>
-        <CcRoutes/>
-      </HashRouter>
+      <LanguageContext.Provider value={{ language: language }}>
+        <HashRouter>
+          <Navbar setLanguage={setLanguage} />
+          <Routes>
+            <Route path="haven-of-oblivion" element={<HavenOfOblivion />} />
+            <Route path="haven-of-oblivion/alice" element={<Alice />} />
+            <Route path="celestial-corridor" element={<CelestialCorridor />} />
+            <Route path="celestial-corridor/libra" element={<Libra />} />
+            <Route
+              path="celestial-corridor/sagittarius"
+              element={<Sagittarius />}
+            />
+            <Route path="celestial-corridor/aries" element={<Aries />} />
+            <Route path="celestial-corridor/leo" element={<Leo />} />
+            <Route path="celestial-corridor/aquarius" element={<Aquarius />} />
+            <Route path="celestial-corridor/gemini" element={<Gemini />} />
+          </Routes>
+        </HashRouter>
       </LanguageContext.Provider>
     </div>
   );
-}
+};
 
 export default App;
