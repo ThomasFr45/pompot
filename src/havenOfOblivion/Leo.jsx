@@ -15,7 +15,7 @@ const Leo = () => {
         solo={false}
         dmg="N/A"
         comp={teamComp}
-        img={"https://i.imgur.com/i3amF5Z.png"}
+        img={"https://via.placeholder.com/200x250"}
       />
       <div className="ccBossConcent">
         <h3>{localStorage.getItem('language') === 'EN' ? "Boss mechanics :" : 'Méchanique du boss:'}</h3>
