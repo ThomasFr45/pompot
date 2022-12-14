@@ -20,6 +20,7 @@ const Phantom = () => {
       <div className="ccBossConcent">
         <h3>{localStorage.getItem('language') === 'EN' ? "Boss mechanics :" : 'Méchanique du boss:'}</h3>
         <ul className="ccBossMecha">
+        {localStorage.getItem("language") === "EN" ? <li></li> : <li></li>}
         </ul>
       </div>
     </div>
