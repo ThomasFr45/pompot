@@ -3,6 +3,37 @@
   height: 400px;
 }
 
+.bossImgs {
+  max-width: 381px;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.bossImgs div {
+  width: 125px;
+  height: 200px;
+  margin: 1px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bossImgs div p {
+  opacity: 0;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.bossImgs div:hover p {
+  opacity: 1;
+}
+
+.bossImgs div:hover {
+  cursor: pointer;
+}
+
 @media (max-width:1200px) {
   .dungeonPic {
     width: 300px;

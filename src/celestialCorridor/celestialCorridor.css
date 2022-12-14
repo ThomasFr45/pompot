@@ -31,23 +31,6 @@ tr:not(:last-child) {
   border-bottom: 1px solid #b3b6b9;
 }
 
-.ccBossImgs {
-  max-width: 381px;
-  display: flex;
-  flex-wrap: wrap;
-  height: fit-content;
-}
-
-.ccBossImgs div {
-  width: 125px;
-  height: 200px;
-  margin: 1px;
-  background-color: pink;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .libra {
   background-image: url('../img/cc/Libra.png');
   background-size: cover;
@@ -76,20 +59,6 @@ tr:not(:last-child) {
 .aries {
   background-image: url('../img/cc/Aries.png');
   background-size: cover;
-}
-
-.ccBossImgs div p {
-  opacity: 0;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-}
-
-.ccBossImgs div:hover p {
-  opacity: 1;
-}
-
-.ccBossImgs div:hover {
-  cursor: pointer;
 }
 
 .ccScheduleTitle {

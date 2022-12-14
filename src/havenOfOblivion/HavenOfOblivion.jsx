@@ -34,10 +34,60 @@ const HavenOfOblivion = () => {
               ? "Click for more infos"
               : "Cliquez pour voir le détail."}
           </p>
-          <div className="ccBossImgs">
+          <div className="bossImgs">
             <Link to="alice">
-              <div className="libra">
+              <div className="alice">
                 <p>Alice</p>
+              </div>
+            </Link>
+            <Link to="beryl">
+              <div className="beryl">
+                <p>Beryl</p>
+              </div>
+            </Link>
+            <Link to="cale">
+              <div className="cale">
+                <p>Cale</p>
+              </div>
+            </Link>
+            <Link to="crime">
+              <div className="crime">
+                <p>Crime</p>
+              </div>
+            </Link>
+            <Link to="dana">
+              <div className="dana">
+                <p>Dana</p>
+              </div>
+            </Link>
+            <Link to="karen">
+              <div className="karen">
+                <p>Karen</p>
+              </div>
+            </Link>
+            <Link to="hooLeo">
+              <div className="hooLeo">
+                <p>Leo</p>
+              </div>
+            </Link>
+            <Link to="nerokas">
+              <div className="nerokas">
+                <p>Nerokas</p>
+              </div>
+            </Link>
+            <Link to="phantom">
+              <div className="phantom">
+                <p>Phantom</p>
+              </div>
+            </Link>
+            <Link to="phoenix">
+              <div className="hooPhoenix">
+                <p>Phoenix</p>
+              </div>
+            </Link>
+            <Link to="punishment">
+              <div className="punishment">
+                <p>Punishment</p>
               </div>
             </Link>
           </div>

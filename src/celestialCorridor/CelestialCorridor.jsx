@@ -114,7 +114,7 @@ const CelestialCorridor = () => {
               ? "Click for more infos"
               : "Cliquez pour voir le détail."}
           </p>
-          <div className="ccBossImgs">
+          <div className="bossImgs">
             <Link to="libra">
               <div className="libra">
                 <p>Libra</p>
