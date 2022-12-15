@@ -65,7 +65,7 @@ const HavenOfOblivion = () => {
                 <p>Karen</p>
               </div>
             </Link>
-            <Link to="hooLeo">
+            <Link to="leo">
               <div className="hooLeo">
                 <p>Leo</p>
               </div>
