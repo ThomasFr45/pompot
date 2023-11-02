@@ -1,6 +1,5 @@
 import "./Navbar.css";
-import logo from "../img/dumas.png";
-//import slurp from "../img/slurp.jpg";
+import logo from "../img/logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = ({setLanguage}) => {
@@ -21,15 +20,15 @@ const Navbar = ({setLanguage}) => {
       </div>
       <div className="navLinks">
       <Link to="celestial-corridor">
-          <p className="navBaseLink">Celestial Corridor</p>
+          <p className="navBaseLink">TEMP</p>
           <p className="navCC">CC</p>
         </Link>
         <Link to="Abyss">
-          <p>Abyss</p>
+          <p>TEMP</p>
         </Link>
         <Link to="haven-of-oblivion">
           <p className="navHoO">HoO</p>
-          <p className="navBaseLink">Haven Of Oblivion</p>
+          <p className="navBaseLink">TEMP</p>
         </Link>
       </div>
       <div>
