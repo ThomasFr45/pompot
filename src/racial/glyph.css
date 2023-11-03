@@ -1,3 +1,12 @@
+.glyphComposHidden {
+  position: relative;
+  left: -200px;
+  width: 0px;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+  opacity: 0;
+}
+
 .glyphBody {
   display: flex;
   align-items:center;
@@ -9,8 +18,11 @@
 }
 
 .glyphCompos {
-  margin: 25px;
-  
+  position: relative;
+  margin-left: 25px;
+  margin-right: 10px;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(10%);
 }
 
 .glyphImage {
@@ -29,4 +41,29 @@
 
 .glyphChar {
   margin-bottom: 10px;
+}
+
+.glyphButtonNo {
+  position:relative;
+  left:0px;
+  font-size: 25px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: rgb(233, 233, 233);
+  border-radius: 50px;
+  background: none;
+  border:none;
+}
+
+.glyphButtonYes {
+  position:relative;
+  left:18px;
+  font-size: 25px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: white;
+  background-color: #2B2720;
+  border-radius: 50px;
 }

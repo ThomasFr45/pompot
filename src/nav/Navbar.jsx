@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({setLanguage}) => {
 
-  const handleLanguage = (e) => {
-    if (e.target.value !== localStorage.getItem("language")) {
-      localStorage.setItem("language", e.target.value);
-      setLanguage(e.target.value);
-    }
-  };
+  // const handleLanguage = (e) => {
+  //   if (e.target.value !== localStorage.getItem("language")) {
+  //     localStorage.setItem("language", e.target.value);
+  //     setLanguage(e.target.value);
+  //   }
+  // };
 
   return (
     <div className="nav">
@@ -32,13 +32,13 @@ const Navbar = ({setLanguage}) => {
         </Link>
       </div>
       <div>
-        <span>
+        {/* <span>
           <select onChange={(e) => handleLanguage(e)} className="language-drop">
             <option value="none">{localStorage.getItem("language") ? localStorage.getItem("language") : 'FR'}</option>
             <option value="FR">FR</option>
             <option value="EN">EN</option>
           </select>
-        </span>
+        </span> */}
       </div>
     </div>
   );
