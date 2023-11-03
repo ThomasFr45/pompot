@@ -23,8 +23,8 @@ const Navbar = ({setLanguage}) => {
           <p className="navBaseLink">TEMP</p>
           <p className="navCC">CC</p>
         </Link>
-        <Link to="Abyss">
-          <p>TEMP</p>
+        <Link to="Glyphs">
+          <p>Glyphs</p>
         </Link>
         <Link to="haven-of-oblivion">
           <p className="navHoO">HoO</p>

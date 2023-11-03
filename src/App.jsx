@@ -15,7 +15,7 @@ const App = () => {
           <Routes>
             
             <Route
-              path="abyss"
+              path="Glyphs"
               element={<GlyphList />}
             />
           </Routes>

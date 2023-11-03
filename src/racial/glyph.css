@@ -9,7 +9,8 @@
 }
 
 .glyphCompos {
-  margin-left: 25px;
+  margin: 25px;
+  
 }
 
 .glyphImage {
@@ -18,4 +19,14 @@
   border-width: 1px;
   width: 260px;
   height: 275px;
+}
+
+.glyphComposTitle {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-style: bold;
+}
+
+.glyphChar {
+  margin-bottom: 10px;
 }
