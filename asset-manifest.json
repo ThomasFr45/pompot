@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pompot/static/css/main.fb340206.css",
+    "main.js": "/pompot/static/js/main.95dbd144.js",
+    "static/media/logo.png": "/pompot/static/media/logo.dbfd6d5cafba29a60689.png",
+    "index.html": "/pompot/index.html",
+    "main.fb340206.css.map": "/pompot/static/css/main.fb340206.css.map",
+    "main.95dbd144.js.map": "/pompot/static/js/main.95dbd144.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb340206.css",
+    "static/js/main.95dbd144.js"
+  ]
+}
