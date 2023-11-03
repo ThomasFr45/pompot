@@ -4,9 +4,12 @@
   padding: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: rgb(41, 41, 41);
+  background-color: #433D3E;
   align-items: center;
   margin-bottom: 80px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #b41a4e;
 }
 
 .navLinks {

@@ -1,0 +1,21 @@
+.glyphBody {
+  display: flex;
+  align-items:center;
+  background-color: #2B2720;
+  border-style: inset;
+  border-color: #909694;
+  text-align: center;
+  margin: 20px;
+}
+
+.glyphCompos {
+  margin-left: 25px;
+}
+
+.glyphImage {
+  border: #909694;
+  border-style: ridge;
+  border-width: 1px;
+  width: 260px;
+  height: 275px;
+}

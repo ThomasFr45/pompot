@@ -1,5 +1,6 @@
 import Glyph from "./Glyph";
-import glyphList from "./glyphList";
+import glyphTable from "./glyphTable";
+import './glyphList.css';
 
 
 const Glyphs = () => {
@@ -8,7 +9,7 @@ const Glyphs = () => {
       <div className="glyphsSearch">
       </div>
       <div className="glyphsList">
-        {glyphList.map(glyph => (
+        {glyphTable.map(glyph => (
           <Glyph img={glyph.img} char={glyph.char} compo={glyph.compo}/>
         ))}
       </div>

@@ -3,7 +3,7 @@ import Navbar from "./nav/Navbar";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import LanguageContext from "./context/Language";
 import { useState } from "react";
-import Glyphs from "./racial/Glyphs";
+import GlyphList from "./racial/GlyphList.jsx";
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem("language"));
@@ -16,7 +16,7 @@ const App = () => {
             
             <Route
               path="abyss"
-              element={<Glyphs />}
+              element={<GlyphList />}
             />
           </Routes>
         </HashRouter>

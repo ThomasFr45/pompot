@@ -2,7 +2,7 @@ const GlyphList = [
   {
     img:"https://i.imgur.com/Wt32052.png",
     char:"GlyphKun",
-    compo:"Jsp whola",
+    compo:["ghs"],
   },
   {
     img:"https://i.imgur.com/IrtV04Z.png",
